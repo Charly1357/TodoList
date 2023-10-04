@@ -1,16 +1,17 @@
-<html>
-  <head>
-    <title>My Todo App</title>
-  </head>
-  <body>
-    <input id="todo-title" type="text" />
-    <input id="date-picker" type="date" />
-    <input type="time" name="time" value="22:00" id="hour-picker"/>
-    <button onclick="addTodo()">Add Todo</button>
+<>
 
-    <div id="todo-list"></div>
+    
+        function addTodo(){
+        document.addEventListener("DOMContentLoaded",function(){
+            let title =documentgetElementById('todo-title').value;
+            console.log(title);
+            let data =documentgetElementById('date-picker').value;
+            console.log(data);
+            let time =documentgetElementById('hour-picker').value;
+            console.log(time);
 
-    <script>
+        });
+    }
       // Model
       // If localstorage has a todos array, then use it
       // Otherwise use the default array.
@@ -205,8 +206,6 @@
       }
 
       render();
-    </script>
-  </body>
-</html> 
+    
  
  
