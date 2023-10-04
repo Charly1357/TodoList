@@ -4,7 +4,25 @@
     box-sizing:border-box;
 }
 body{
-    background-color: aliceblue;
-    color:white;
+    background-color: rgb(240, 255, 252);
+    color:black;
     font-family:"P"
+    min-height: 100vh;
+}
+header,form{
+  justify-content: center;
+  align-items: center;
+}
+header,h1{
+    justify-content: center;
+}
+form{
+    padding:0.5rem;
+    padding-left: 5rem;
+    font-size:1.8rem;
+    border:none;
+    border-radius: 2rem;
+}
+header{
+    font-size:1.5rem;
 }

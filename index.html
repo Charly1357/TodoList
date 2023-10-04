@@ -10,14 +10,16 @@
 <body>
     <header>
         <h1> Todo List</h1>
-    </header>
-    <input id="todo-title" type="text" />
-    <input id="date-picker" type="date" />
-    <input type="time" name="time" value="22:00" id="hour-picker"/>
+    
+    <form>
+    <input id="todo-title" type="text"  required/>
+    <input id="date-picker" type="date" required/>
+    <input type="time" name="time" value="22:00" id="hour-picker" required/>
     <button onclick="addTodo()">Add Todo</button>
+    </form>
 
     <div id="todo-list"></div>
-    
+    </header>
 </body>
 <footer>
     <script src="https://kit.fontawesome.com/12ab3f25b6.js"></script>
