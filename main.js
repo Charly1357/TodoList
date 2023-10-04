@@ -1,17 +1,8 @@
-<>
+
 
     
-        function addTodo(){
-        document.addEventListener("DOMContentLoaded",function(){
-            let title =documentgetElementById('todo-title').value;
-            console.log(title);
-            let data =documentgetElementById('date-picker').value;
-            console.log(data);
-            let time =documentgetElementById('hour-picker').value;
-            console.log(time);
-
-        });
-    }
+        
+    
       // Model
       // If localstorage has a todos array, then use it
       // Otherwise use the default array.
@@ -101,6 +92,8 @@
       function addTodo() {
         const textbox = document.getElementById('todo-title');
         const title = textbox.value;
+        console.log("Existo no es magia");
+
 
         const datePicker = document.getElementById('date-picker');
         const dueDate = datePicker.value;
